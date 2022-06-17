@@ -1,0 +1,24 @@
+##################################
+#	     Git Notes           #
+##################################
+# Make Repo
+    CD into ~/Github
+      gh repo create
+      ...clone repo locally
+    CD into local repo
+      echo "Whatever" >> README.md
+git status #gives list to add
+git add <file>
+git status
+git commit -m "Changes.etc"
+
+################################
+Generate Token on-web
+git remote set-url origin https://TheGassyNinja:<Token>@github.com/TheGassyNinja/<REPO>.git
+#################################
+git push -u origin HEAD
+
+##################################
+
+
+
