@@ -1,7 +1,7 @@
-##------------------>>>  VIM   <<<---------------------#
+	##------------------>>>  VIM   <<<---------------------#
 
 #		   >>>  Hot Keys <<<
-#	Leader= CTRL+, 		#Set in rc
+#	Leader= n 		#Set in rc
 #
 #		    >>> Movement  <<<
 #	 k	    up
@@ -22,8 +22,7 @@
 #	CTRL+n		NERDTree
 #	CTRL+t		Toggle
 #	CTRL+f		Find
-#
-#
+#	I		show .files
 #
 #------------------------------------------------------#
 #		    >>>  Aliases  <<<
@@ -39,8 +38,11 @@
 #		   >>> CONFIG  FILES  <<<
 #	~/.vimrc		# Main Config
 #	~/vim/plugins		# Plugins
-#	~/vim/theme		# Themes
+#		Plug 'preservim/nerdtree'
+#		Plug 'ycm-core/YouCompleteMe' 
 #
+#	~/vim/theme		# Themes
+#		Plug 'pablopunk/sick.vim'
 #
 #
 #------------------------------------------------------#
@@ -50,7 +52,8 @@
 #
 #
 #
-#
+#------------------------------------------------------#
+#	
 #------------------------------------------------------#
 #
 #------------------------------------------------------#
