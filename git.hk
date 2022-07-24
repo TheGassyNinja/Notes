@@ -1,6 +1,13 @@
 ##################################
 #	     Git Notes           #
 ##################################
+pacman -S github-cli
+	gh auth login # Needs Webtoken
+	gh auth setup-git
+ git config --global user.email "My email"
+
+
+
 # Make Repo
     CD into ~/Github
       gh repo create
@@ -13,7 +20,7 @@ git status
 git commit -m "Changes.etc"
 
 ################################
-Generate Token on-web
+Generate Webtoken
 git remote set-url origin https://TheGassyNinja:<Token>@github.com/TheGassyNinja/<REPO>.git
 #################################
 git push -u origin HEAD
